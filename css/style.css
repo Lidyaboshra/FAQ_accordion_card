@@ -44,6 +44,9 @@ body {
   -moz-transition: 0.3s;
   -ms-transition: 0.3s;
   -o-transition: 0.3s;
+  background-image: url(../img/bg-pattern-desktop.svg);
+  background-position: right 661px bottom -177px;
+  background-repeat: no-repeat;
 }
 
 .all {
@@ -140,6 +143,8 @@ h3 {
     overflow: visible;
     max-width: 346px;
     flex-wrap: wrap;
+    background-image: url(../img/bg-pattern-mobile.svg);
+    background-position: right 55px top -6px;
   }
   header {
     font-size: 31px;
@@ -148,23 +153,27 @@ h3 {
   img {
     left: 0;
     width: 230px;
-    height: 70px;
-    top: -41px;
-  }
-  .box {
-    width: 319px;
+    height: 136px;
+    top: -79px;
   }
 }
+.box {
+  width: 319px;
+}
+
 @media (max-width: 373px) {
   .container {
     max-width: 252px;
     flex-wrap: wrap;
+    background-image: url(../img/bg-pattern-mobile.svg);
+    background-position: right 51px top -9px;
+    background-size: 150px;
   }
 
   img {
-    width: 88px;
-    height: 34px;
-    top: -19px;
+    width: 132px;
+    height: 73px;
+    top: -43px;
   }
   .box {
     width: 228px;
